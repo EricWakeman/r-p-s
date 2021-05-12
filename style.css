@@ -1,0 +1,32 @@
+:root{
+     --bgcream: #f5f5f5;
+
+}
+
+.title-bar{
+font-size: 6.5rem;
+border: solid black .4rem;
+}
+
+.battlefield{
+    background-color: var(--bgcream);
+}
+
+.battle-card{
+    max-height: 18rem;
+    max-width: 100%;
+
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+ 
+.weapon-selector{
+    width: 100%;
+    position: absolute;
+}
+
+.end-bar{
+    min-height: 67rem;
+    background-image: url(assets/puppy.jpg);
+    
+}

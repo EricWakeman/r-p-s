@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Rock Paper Scisors</title>
+</head>
+
+<body>
+    <header>
+        <div class="container-fluid bg-info">
+            <div class="row ">
+                <div class="col-12  align-middle text-center title-bar">
+                    <div>
+                        <span> Welcome to the Arena!!!</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <body>
+        <div class="container-fluid battlefield">
+            <div class="row">
+                <div class="col-lg-4 d-flex justify-content-around" id="player-weapon">
+                    <img src="ASSETS/PLAYERIMG.jpg" alt="Player 1" class="battle-card">
+                </div>
+                <div class="col-lg-4 d-flex justify-content-around" id="caster">
+                    <img src="ASSETS/VS.png" alt="Announcement" class="battle-card">
+                </div>
+                <div class="col-lg-4 d-flex justify-content-around" id="comp-weapon">
+                    <img src="ASSETS/computerimg.jpg" alt="Computer Player" class="battle-card">
+                </div>
+
+            </div>
+
+
+            <div class="row">
+                <div class="col-4 ">
+                    <div class="card text-center weapon-selector shadow-lg">
+                        <h5 class="card-header">Choose Your Weapon</h5>
+                        <div class="card-body d-flex justify-content-around">
+                            <button class="btn btn-warning btn-lrg" onclick="drawRock()">Rock</button>
+                            <button class="btn btn-primary btn-lrg" onclick="drawPaper()">Paper</button>
+                            <button class="btn btn-danger btn-lrg" onclick="drawScissors()">Scissors</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid end-bar">
+            <p>Scoreboard coming soon!</p>
+        </div>
+    </body>
+
+    <footer></footer>
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
